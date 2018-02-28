@@ -20,5 +20,5 @@ RUN chmod 755 /opt/src/run-mlb.sh
 EXPOSE 80
 
 
-ENTRYPOINT ["/opt/src/run-mlb.sh"]
+#ENTRYPOINT ["/opt/src/run-mlb.sh"]
 CMD ["bash"]
